@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>current.catalog_item == "lms_request" &amp;&amp;  current.state == "3" &amp;&amp;  current.hr_case_number  == '' &amp;&amp; current.assigned_to != ''</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Create HR Case</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[hrCase();
+if (!current.hr_case_number) {
+    isHRCaseCreated();
+}
+
+function hrCase() {
+    var gr = new GlideRecord('x_1443288_training_hr_case');
+    gr.initialize();
+    gr.caller = current.getValue('requested_for');
+    gr.department = current.getValue('requestors_dept');
+    gr.parent_case = current.getValue('sys_id');
+    gr.insert();
+}
+
+function isHRCaseCreated() {
+    var gr = new GlideRecord('x_1443288_training_hr_case');
+    gr.addQuery('parent_case', current.sys_id);
+    gr.query();
+
+    if (gr.next()) {
+        current.hr_case_number = gr.getValue('number');
+        current.is_hr_case_created = 'true';
+        current.update();
+    }
+}
+
+action.setRedirectURL(current);]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-06 09:41:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d5764cbfc3721210a87ebd43e4013102</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>Create HR Case</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Training and Learning" source="x_1443288_training">285ab4dec3661210a87ebd43e40131a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Learning">285ab4dec3661210a87ebd43e40131a8</sys_scope>
+        <sys_update_name>sys_ui_action_d5764cbfc3721210a87ebd43e4013102</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 06:07:22</sys_updated_on>
+        <table>x_1443288_training_training_and_learning</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

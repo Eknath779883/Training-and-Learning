@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="assignment_group" label="Assignment group" language="en" table="x_1443288_training_tlrm_assignment_mapping">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <help/>
+            <hint/>
+            <label>Assignment group</label>
+            <language>en</language>
+            <name>x_1443288_training_tlrm_assignment_mapping</name>
+            <plural>Assignment groups</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-03 13:44:11</sys_created_on>
+            <sys_id>f542a5b2c3f29a10a87ebd43e40131c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Assignment group</sys_name>
+            <sys_package display_value="Training and Learning" source="x_1443288_training">285ab4dec3661210a87ebd43e40131a8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Training and Learning">285ab4dec3661210a87ebd43e40131a8</sys_scope>
+            <sys_update_name>sys_documentation_x_1443288_training_tlrm_assignment_mapping_assignment_group_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-03 13:44:11</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

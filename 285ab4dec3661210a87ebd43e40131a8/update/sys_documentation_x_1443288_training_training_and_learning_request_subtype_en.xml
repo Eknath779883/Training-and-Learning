@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="request_subtype" label="Request Subtype" language="en" table="x_1443288_training_training_and_learning">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>request_subtype</element>
+            <help/>
+            <hint/>
+            <label>Request Subtype</label>
+            <language>en</language>
+            <name>x_1443288_training_training_and_learning</name>
+            <plural>Request Subtypes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-23 10:14:56</sys_created_on>
+            <sys_id>6de8cc93c3661210a87ebd43e401314d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Request Subtype</sys_name>
+            <sys_package display_value="Training and Learning" source="x_1443288_training">285ab4dec3661210a87ebd43e40131a8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Training and Learning">285ab4dec3661210a87ebd43e40131a8</sys_scope>
+            <sys_update_name>sys_documentation_x_1443288_training_training_and_learning_request_subtype_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-23 10:14:56</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

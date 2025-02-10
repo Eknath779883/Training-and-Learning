@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set User details</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    userDetails();
+}
+
+function userDetails() {
+    var sysId = g_form.getValue('requested_for');
+
+    var ga = new GlideAjax('getTrainingDetail');
+    ga.addParam('sysparm_name', 'getDetails');
+    ga.addParam('sysparm_sysId', sysId);
+
+    ga.getXMLAnswer(function(res) {
+        var ans = JSON.parse(res);
+        g_form.setValue('requestors_email', ans.email);
+        g_form.setValue('requestors_phone', ans.mobile);
+        g_form.setValue('requestors_dept', ans.dept);
+        g_form.setValue('requestors_location', ans.location);
+    });
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 06:58:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>be8be4c8c3031210a87ebd43e40131b2</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Set User details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Training and Learning" source="x_1443288_training">285ab4dec3661210a87ebd43e40131a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Learning">285ab4dec3661210a87ebd43e40131a8</sys_scope>
+        <sys_update_name>sys_script_client_be8be4c8c3031210a87ebd43e40131b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-17 12:12:54</sys_updated_on>
+        <table>x_1443288_training_training_and_learning</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

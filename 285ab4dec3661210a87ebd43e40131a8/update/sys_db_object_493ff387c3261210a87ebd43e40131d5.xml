@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>true</is_extendable>
+        <label>Training and Learning</label>
+        <live_feed_enabled>true</live_feed_enabled>
+        <name>x_1443288_training_training_and_learning</name>
+        <number_ref display_value="TLRM">1fa94c93c3661210a87ebd43e40131a2</number_ref>
+        <provider_class/>
+        <read_access>false</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Task" name="task">4d0d6d1a8d30021087de63ac7f1f00b9</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-23 09:33:20</sys_created_on>
+        <sys_id>493ff387c3261210a87ebd43e40131d5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Training and Learning</sys_name>
+        <sys_package display_value="Training and Learning" source="x_1443288_training">285ab4dec3661210a87ebd43e40131a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Learning">285ab4dec3661210a87ebd43e40131a8</sys_scope>
+        <sys_update_name>sys_db_object_493ff387c3261210a87ebd43e40131d5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 06:40:09</sys_updated_on>
+        <u_active>true</u_active>
+        <update_access>false</update_access>
+        <user_role display_value="x_1443288_training.training_and_learning_user" name="x_1443288_training.training_and_learning_user">886ff787c3261210a87ebd43e4013171</user_role>
+        <ws_access>false</ws_access>
+    </sys_db_object>
+</record_update>

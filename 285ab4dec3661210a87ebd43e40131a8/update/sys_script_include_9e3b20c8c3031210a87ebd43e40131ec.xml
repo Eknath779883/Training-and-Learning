@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1443288_training.getTrainingDetail</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>getTrainingDetail</name>
+        <script><![CDATA[var getTrainingDetail = Class.create();
+getTrainingDetail.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getDetails: function() {
+        var sysId = this.getParameter('sysparm_sysId');
+
+        var gr = new GlideRecord('sys_user');
+        gr.addQuery('sys_id', sysId);
+        gr.query();
+
+        if (gr.next()) {
+            return JSON.stringify({
+                email: gr.getValue('email'),
+                mobile: gr.getValue('mobile_phone'),
+                dept: gr.getValue('department'),
+                location: gr.getValue('location')
+            });
+        }
+    },
+
+    getAssigneeWithLeastCapacity: function() {
+        var assignee = null;
+        var minCapacity = Number.MAX_SAFE_INTEGER;
+
+        var gr = new GlideRecord('x_1443288_training_tlrm_assigned_to_mapping');
+        gr.addQuery('assignment_group', assignment_group);
+        gr.addQuery('capacity', '>=', 0);
+        gr.orderBy('capacity');
+        gr.query();
+
+        if (gr.next()) {
+            assignee = gr.assigned_to.toString();
+        }
+        return assignee;
+    },
+
+
+    assignedTo: function(assignee, assignmentGroup) {
+        var gr = new GlideAggregate('x_1443288_training_training_and_learning');
+        gr.addQuery('assigned_to', assignee);
+        gr.addQuery('assignment_group', assignmentGroup);
+        gr.addAggregate('COUNT');
+        gr.query();
+        var count;
+        while (gr.next()) {
+            count = gr.getAggregate('COUNT');
+        }
+
+        var ga = new GlideRecord('x_1443288_training_tlrm_assigned_to_mapping');
+        ga.addQuery('assigned_to', assignee);
+        ga.addQuery('assignment_group', assignmentGroup);
+        ga.query();
+
+
+        if (ga.next()) {
+            ga.capacity = count;
+            ga.update();
+        }
+    },
+    type: 'getTrainingDetail'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 06:57:11</sys_created_on>
+        <sys_id>9e3b20c8c3031210a87ebd43e40131ec</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>getTrainingDetail</sys_name>
+        <sys_package display_value="Training and Learning" source="x_1443288_training">285ab4dec3661210a87ebd43e40131a8</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Training and Learning">285ab4dec3661210a87ebd43e40131a8</sys_scope>
+        <sys_update_name>sys_script_include_9e3b20c8c3031210a87ebd43e40131ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 11:15:31</sys_updated_on>
+    </sys_script_include>
+</record_update>

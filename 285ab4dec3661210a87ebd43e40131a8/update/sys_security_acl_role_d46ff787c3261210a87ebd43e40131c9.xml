@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-23 09:33:21</sys_created_on>
+        <sys_id>d46ff787c3261210a87ebd43e40131c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1443288_training_training_and_learning.x_1443288_training.training_and_learning_user</sys_name>
+        <sys_package display_value="Training and Learning" source="x_1443288_training">285ab4dec3661210a87ebd43e40131a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Learning">285ab4dec3661210a87ebd43e40131a8</sys_scope>
+        <sys_security_acl display_value="x_1443288_training_training_and_learning">9c6ff787c3261210a87ebd43e40131b9</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_d46ff787c3261210a87ebd43e40131c9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-23 09:33:21</sys_updated_on>
+        <sys_user_role display_value="x_1443288_training.training_and_learning_user" name="x_1443288_training.training_and_learning_user">886ff787c3261210a87ebd43e4013171</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

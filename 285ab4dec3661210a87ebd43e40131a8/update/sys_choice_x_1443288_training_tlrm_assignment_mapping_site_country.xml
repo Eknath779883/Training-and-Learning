@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="site_country" table="x_1443288_training_tlrm_assignment_mapping" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>site_country</element>
+            <name>x_1443288_training_tlrm_assignment_mapping</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-03 13:49:50</sys_created_on>
+            <sys_id>e493e136c3f29a10a87ebd43e401310f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>site_country</sys_name>
+            <sys_package display_value="Training and Learning" source="x_1443288_training">285ab4dec3661210a87ebd43e40131a8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Training and Learning">285ab4dec3661210a87ebd43e40131a8</sys_scope>
+            <sys_update_name>sys_choice_x_1443288_training_tlrm_assignment_mapping_site_country</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-03 13:49:50</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

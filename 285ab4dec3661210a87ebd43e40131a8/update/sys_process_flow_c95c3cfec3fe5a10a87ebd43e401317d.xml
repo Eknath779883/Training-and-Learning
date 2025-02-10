@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1443288_training_training_and_learning">state=4^EQ<item display_value="Resolved" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="4"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Resolved</label>
+        <name>Training and Learning - Resolved</name>
+        <order>400</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-03 10:59:08</sys_created_on>
+        <sys_id>c95c3cfec3fe5a10a87ebd43e401317d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Training and Learning - Resolved</sys_name>
+        <sys_package display_value="Training and Learning" source="x_1443288_training">285ab4dec3661210a87ebd43e40131a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Learning">285ab4dec3661210a87ebd43e40131a8</sys_scope>
+        <sys_update_name>sys_process_flow_c95c3cfec3fe5a10a87ebd43e401317d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-03 10:59:08</sys_updated_on>
+        <table>x_1443288_training_training_and_learning</table>
+    </sys_process_flow>
+</record_update>

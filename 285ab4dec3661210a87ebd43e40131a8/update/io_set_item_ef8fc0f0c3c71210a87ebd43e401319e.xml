@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="Request GxP maintenance on Learning Management System">dc2dc8f8c3871210a87ebd43e401316a</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-09 12:50:36</sys_created_on>
+        <sys_id>ef8fc0f0c3c71210a87ebd43e401319e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>User detail.Request GxP maintenance on Learning Management System</sys_name>
+        <sys_package display_value="Training and Learning" source="x_1443288_training">285ab4dec3661210a87ebd43e40131a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Learning">285ab4dec3661210a87ebd43e40131a8</sys_scope>
+        <sys_update_name>io_set_item_ef8fc0f0c3c71210a87ebd43e401319e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-09 12:50:36</sys_updated_on>
+        <variable_set display_value="User detail">bb77ff20c3471210a87ebd43e40131e1</variable_set>
+    </io_set_item>
+</record_update>
