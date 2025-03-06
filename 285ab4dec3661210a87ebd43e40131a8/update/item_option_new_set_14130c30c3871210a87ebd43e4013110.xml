@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>footer</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>1200</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-09 11:56:41</sys_created_on>
+        <sys_id>14130c30c3871210a87ebd43e4013110</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Footer</sys_name>
+        <sys_package display_value="Training and Learning" source="x_1443288_training">285ab4dec3661210a87ebd43e40131a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Learning">285ab4dec3661210a87ebd43e40131a8</sys_scope>
+        <sys_update_name>item_option_new_set_14130c30c3871210a87ebd43e4013110</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-01-09 12:26:47</sys_updated_on>
+        <title>Footer</title>
+        <type>one_to_one</type>
+        <version>15</version>
+        <write_roles/>
+    </item_option_new_set>
+</record_update>

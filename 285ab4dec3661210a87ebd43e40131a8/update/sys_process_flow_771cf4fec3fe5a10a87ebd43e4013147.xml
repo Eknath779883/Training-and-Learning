@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1443288_training_training_and_learning">state=3^approval=approved^EQ<item display_value="Work in Progress" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
+            <item display_value="Approved" endquery="false" field="approval" goto="false" newquery="false" operator="=" or="false" value="approved"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Work in Progress</label>
+        <name>Training and Learning - Work in Progress</name>
+        <order>300</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-03 10:58:11</sys_created_on>
+        <sys_id>771cf4fec3fe5a10a87ebd43e4013147</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Training and Learning - Work in Progress</sys_name>
+        <sys_package display_value="Training and Learning" source="x_1443288_training">285ab4dec3661210a87ebd43e40131a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Learning">285ab4dec3661210a87ebd43e40131a8</sys_scope>
+        <sys_update_name>sys_process_flow_771cf4fec3fe5a10a87ebd43e4013147</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-06 12:35:57</sys_updated_on>
+        <table>x_1443288_training_training_and_learning</table>
+    </sys_process_flow>
+</record_update>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" audit="true" db_object_id="493ff387c3261210a87ebd43e40131d5" extends="task" label="Training and Learning" max_length="40" name="x_1443288_training_training_and_learning" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Requestor's Mobile" max_length="40" name="requestors_phone" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Requestor's Email" max_length="40" name="requestors_email" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Notify Others" max_length="1024" name="notify_others" reference="sys_user" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Requestor's Department" max_length="32" name="requestors_dept" read_only="true" reference="cmn_department" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Attachment Link" max_length="1024" name="attachment_link" type="url"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Resolved by" max_length="32" name="resolved_by" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Request/Report type" max_length="40" name="request_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Training Learning Object" sequence="7" value="training_learning_object"/>
+                <element inactive_on_update="false" label="Event" sequence="2" value="Event"/>
+                <element inactive_on_update="false" label="Learning Assignment" sequence="5" value="learning_assignment"/>
+                <element inactive_on_update="false" label="Curriculum" sequence="0" value="curriculum"/>
+                <element inactive_on_update="false" label="Associate to Work Item" sequence="4" value="associate_to_work_item"/>
+                <element inactive_on_update="false" label="Training Role Group or Umbrella" sequence="6" value="training_role_group_or_umbrella"/>
+                <element inactive_on_update="false" label="Other" sequence="8" value="other"/>
+                <element inactive_on_update="false" label="Equivalencies" sequence="1" value="equivalencies"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Has Escalated" max_length="40" name="has_escalated" read_only="true" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Site/Country" max_length="40" name="u_site_country" type="string">
+            <choice>
+                <element inactive_on_update="false" label="CVBN-Dubai" sequence="1" value="CVBN-Dubai"/>
+                <element inactive_on_update="false" label="LKJH-Singapore" sequence="3" value="LKJH-Singapore"/>
+                <element inactive_on_update="false" label="XZRT-Tokyo" sequence="9" value="XZRT-Tokyo"/>
+                <element inactive_on_update="false" label="QWER-NewYork" sequence="7" value="QWER-NewYork"/>
+                <element inactive_on_update="false" label="ASBV-Delhi" sequence="0" value="ASBV-Delhi"/>
+                <element inactive_on_update="false" label="POIU-Rome" sequence="6" value="POIU-Rome"/>
+                <element inactive_on_update="false" label="MNBV-Paris" sequence="4" value="MNBV-Paris"/>
+                <element inactive_on_update="false" label="KJNP-Mumbai" sequence="2" value="KJNP-Mumbai"/>
+                <element inactive_on_update="false" label="PLMK-London" sequence="5" value="PLMK-London"/>
+                <element inactive_on_update="false" label="TYUI-Sydney" sequence="8" value="TYUI-Sydney"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Reason for Cancellation" max_length="40" name="reason_for_cancellation" type="string"/>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#10;&#10;    // Add your code here&#10;    if (current.state == '4') {&#10;&#10;        return ''; // return the calculated value&#10;    }&#10;})(current);" label="Resolved" max_length="40" name="resolved" read_only="true" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Request Subtype" max_length="40" name="request_subtype" type="string">
+            <choice>
+                <element inactive_on_update="false" label="[Learning Object Deactivation] Materials" sequence="1" value="learning_object_deactivation_materials"/>
+                <element inactive_on_update="false" label="[New Content Creation] Materials" sequence="9" value="new_content_creation_materials"/>
+                <element inactive_on_update="false" label="[Learning Object Deactivation] Video" sequence="3" value="learning_object_deactivation_video"/>
+                <element inactive_on_update="false" label="[New Content Creation] Video" sequence="11" value="new_content_creation_video"/>
+                <element inactive_on_update="false" label="[Metadata Update] Materials" sequence="5" value="metadata_update_materials"/>
+                <element inactive_on_update="false" label="[OJT] observer setup" sequence="13" value="ojt_observer_setup"/>
+                <element inactive_on_update="false" label="[Metariata Update] Video" sequence="7" value="metariata_update_video"/>
+                <element inactive_on_update="false" label="[Metadata Update] Test" sequence="6" value="metadata_update_test"/>
+                <element inactive_on_update="false" label="[Metadata Update] WET" sequence="8" value="metadata_update_wet"/>
+                <element inactive_on_update="false" label="[Learning Object Deactivation] Event" sequence="0" value="learning_object_deactivation_event"/>
+                <element inactive_on_update="false" label="[Learning Object Deactivation] Test" sequence="2" value="learning_object_deactivation_test"/>
+                <element inactive_on_update="false" label="[New Content Creation Test" sequence="10" value="new_content_creation_test"/>
+                <element inactive_on_update="false" label="[Learning Object Deactivation] WBT" sequence="4" value="learning_object_deactivation_wbt"/>
+                <element inactive_on_update="false" label="[New Content Creation] WRT" sequence="12" value="new_content_creation_wrt"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="HR Case Number" max_length="40" name="hr_case_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type of Audit/Inspection" max_length="40" name="audit_inspection" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Requestor's Location" max_length="32" name="requestors_location" read_only="true" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="HR Service Name" max_length="40" name="hr_service_name" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="1" value="Choice 3"/>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="0" value="Choice 2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Is HR Case Created?" max_length="40" name="is_hr_case_created" read_only="true" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Requested for" max_length="32" name="requested_for" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="lms_request" label="Catalog Item" max_length="40" name="catalog_item" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Design E-Learning Content" sequence="3" value="design_e_learning_content"/>
+                <element inactive_on_update="false" label="GxP Training Report" sequence="2" value="gxp_training_report"/>
+                <element inactive_on_update="false" label="Audit and Inspection Support" sequence="1" value="audit_and_inspection_support"/>
+                <element inactive_on_update="false" label="GxP Technical Competency" sequence="4" value="gxp_technical_competency"/>
+                <element inactive_on_update="false" label="LMS Request" sequence="0" value="lms_request"/>
+            </choice>
+        </element>
+    </element>
+</database>

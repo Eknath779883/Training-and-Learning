@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access>1</caller_access>
+        <derived_priority>100</derived_priority>
+        <description>Used for the trigger reminder notification for the approval </description>
+        <event_name>x_1443288_training.approval.reminder</event_name>
+        <fired_by>Sheduled Job : </fired_by>
+        <priority>100</priority>
+        <queue/>
+        <suffix>approval.reminder</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-10 09:08:23</sys_created_on>
+        <sys_id>32fe8c83836712100005c430ceaad3ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1443288_training.approval.reminder</sys_name>
+        <sys_package display_value="Training and Learning" source="x_1443288_training">285ab4dec3661210a87ebd43e40131a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Learning">285ab4dec3661210a87ebd43e40131a8</sys_scope>
+        <sys_update_name>sysevent_register_32fe8c83836712100005c430ceaad3ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-10 09:08:23</sys_updated_on>
+        <table>x_1443288_training_training_and_learning</table>
+    </sysevent_register>
+</record_update>

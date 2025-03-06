@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>1300</order>
+        <sc_cat_item display_value="Request GxP training &amp; learning related audit and inspection support">d3d67320c3471210a87ebd43e401315e</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-09 11:56:41</sys_created_on>
+        <sys_id>313384b0c3871210a87ebd43e40131b6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Footer.Request GxP Training Report &amp; learning related Audit and Inspection support</sys_name>
+        <sys_package display_value="Training and Learning" source="x_1443288_training">285ab4dec3661210a87ebd43e40131a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Learning">285ab4dec3661210a87ebd43e40131a8</sys_scope>
+        <sys_update_name>io_set_item_313384b0c3871210a87ebd43e40131b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-09 12:03:43</sys_updated_on>
+        <variable_set display_value="Footer">14130c30c3871210a87ebd43e4013110</variable_set>
+    </io_set_item>
+</record_update>

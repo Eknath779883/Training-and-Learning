@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_1443288_training_training_and_learning" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Training and Learning - Default view" name="x_1443288_training_training_and_learning" related_list="NULL" sys_domain="global" view="Default view">aeb695e0c3171210a87ebd43e4013154</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>sysapproval_approver.sysapproval</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-21 09:38:46</sys_created_on>
+            <sys_id>66b695e0c3171210a87ebd43e4013156</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-21 09:38:46</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Training and Learning - Default view" name="x_1443288_training_training_and_learning" related_list="NULL" sys_domain="global" view="Default view">aeb695e0c3171210a87ebd43e4013154</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_1443288_training_hr_case.parent_case</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-21 09:38:46</sys_created_on>
+            <sys_id>aeb695e0c3171210a87ebd43e4013156</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-21 09:38:46</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Training and Learning - Default view" name="x_1443288_training_training_and_learning" related_list="NULL" sys_domain="global" view="Default view">aeb695e0c3171210a87ebd43e4013154</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>task_sla.task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-21 09:38:46</sys_created_on>
+            <sys_id>a2b695e0c3171210a87ebd43e4013157</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-21 09:38:46</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Training and Learning - Default view</calculated_name>
+            <filter/>
+            <name>x_1443288_training_training_and_learning</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-21 09:38:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aeb695e0c3171210a87ebd43e4013154</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Training and Learning - Default view</sys_name>
+            <sys_package display_value="Training and Learning" source="x_1443288_training">285ab4dec3661210a87ebd43e40131a8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Training and Learning">285ab4dec3661210a87ebd43e40131a8</sys_scope>
+            <sys_update_name>sys_ui_related_x_1443288_training_training_and_learning_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-21 09:38:46</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

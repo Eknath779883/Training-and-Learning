@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>hr_service_name</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-03 12:08:40</sys_created_on>
+        <sys_id>215c41b6c3729a10a87ebd43e40131c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>hr_service_name</sys_name>
+        <sys_package display_value="Training and Learning" source="x_1443288_training">285ab4dec3661210a87ebd43e40131a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training and Learning">285ab4dec3661210a87ebd43e40131a8</sys_scope>
+        <sys_update_name>sys_ui_policy_action_215c41b6c3729a10a87ebd43e40131c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-03 12:08:40</sys_updated_on>
+        <table>x_1443288_training_training_and_learning</table>
+        <ui_policy display_value="When catalog item is LMS then HR service name field should visible">1c3c8d76c3729a10a87ebd43e4013171</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=215c41b6c3729a10a87ebd43e40131c4"/>
+</record_update>
