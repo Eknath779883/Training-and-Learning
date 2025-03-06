@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="site_country" table="x_1443288_training_tlrm_assignment_mapping">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-03 13:39:44</sys_created_on>
-        <sys_id>8f10e1fec3b29a10a87ebd43e40131dd</sys_id>
         <sys_name>Site/Country</sys_name>
         <sys_package display_value="Training and Learning" source="x_1443288_training">285ab4dec3661210a87ebd43e40131a8</sys_package>
         <sys_policy/>

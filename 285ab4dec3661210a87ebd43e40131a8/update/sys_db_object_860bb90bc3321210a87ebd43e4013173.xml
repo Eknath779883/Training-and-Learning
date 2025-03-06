@@ -17,7 +17,7 @@
         <provider_class/>
         <read_access>false</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Task" name="task">4d0d6d1a8d30021087de63ac7f1f00b9</super_class>
+        <super_class display_value="Task" name="task">80809368dc1212104f34465061b06a71</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-04 10:13:09</sys_created_on>
@@ -30,7 +30,6 @@
         <sys_update_name>sys_db_object_860bb90bc3321210a87ebd43e4013173</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-04 10:13:11</sys_updated_on>
-        <u_active>true</u_active>
         <update_access>false</update_access>
         <user_role display_value="x_1443288_training.hr_case_user" name="x_1443288_training.hr_case_user">949b790bc3321210a87ebd43e401315c</user_role>
         <ws_access>false</ws_access>

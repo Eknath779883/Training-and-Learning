@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" db_object_id="97c915f6c3b29a10a87ebd43e40131bd" label="TLRM Assignment mapping" max_length="40" name="x_1443288_training_tlrm_assignment_mapping" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="catalog_item" choice_table="x_1443288_training_training_and_learning" label="Catalog item" max_length="40" name="catalog_item" type="choice">
+            <choice/>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_site_country" choice_table="x_1443288_training_training_and_learning" label="Site/Country" max_length="40" name="site_country" reference="x_1443288_training_training_and_learning" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Assignment group" max_length="40" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <index name="index">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

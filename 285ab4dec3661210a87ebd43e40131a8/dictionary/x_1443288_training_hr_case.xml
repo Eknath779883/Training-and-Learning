@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" db_object_id="860bb90bc3321210a87ebd43e4013173" extends="task" label="HR Case" max_length="40" name="x_1443288_training_hr_case" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="SLA" max_length="40" name="sla" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Subcategory" max_length="40" name="subcategory" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="External Caller" max_length="40" name="external_caller" read_only="true" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Service processing unit parameter (pu)" max_length="40" name="service_processing_unit_parameter" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vendor reference" max_length="40" name="vendor_reference" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="IT Ticket Reference" max_length="40" name="it_ticket_reference" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Inbound email" max_length="40" name="inbound_email" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Department" max_length="32" name="department" read_only="true" reference="cmn_department" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Caller" max_length="32" name="caller" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Others to be informed" max_length="1024" name="others_to_be_informed" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Has breached" max_length="40" name="has_breached" read_only="true" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Parent Case" max_length="32" name="parent_case" reference="x_1443288_training_training_and_learning" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Business Unit" max_length="32" name="business_unit" read_only="true" reference="cmdb_multisource_deny_class" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Forward Schedule" max_length="40" name="forward_schedule" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Category" max_length="32" name="category" read_only="true" reference="cmdb_multisource_deny_class" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="HR Service" max_length="40" name="hr_service" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Service center" max_length="32" name="service_center" reference="cmdb" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Subject" max_length="40" name="subject" read_only="true" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Urgent" max_length="40" name="urgent" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Country" max_length="32" name="country" read_only="true" reference="core_country" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Opened for" max_length="40" name="opened_for" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Assigned to country" max_length="40" name="assigned_to_country" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Fixed service processing time parameter (ft) (hh:mm:ss)" max_length="40" name="fixed_service_processing_time_parameter" read_only="true" type="string"/>
+    </element>
+</database>

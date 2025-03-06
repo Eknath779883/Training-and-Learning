@@ -2,11 +2,12 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Request GxP Training Report &amp; learning related Audit and Inspection support">d3d67320c3471210a87ebd43e401315e</cat_item>
+        <cat_item display_value="Request GxP training &amp; learning related audit and inspection support">d3d67320c3471210a87ebd43e401315e</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field>request_type</choice_field>
         <choice_table>x_1443288_training_training_and_learning</choice_table>
+        <conversational_label/>
         <create_roles/>
         <default_html_value/>
         <default_value/>
@@ -42,6 +43,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>request_type</name>
+        <not_available_conversation>false</not_available_conversation>
         <order>1000</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
@@ -87,6 +89,7 @@
         <sys_updated_on>2025-01-16 12:45:07</sys_updated_on>
         <table/>
         <tooltip>Please choose your request type</tooltip>
+        <topic_block/>
         <type>5</type>
         <ui_page/>
         <unique>false</unique>

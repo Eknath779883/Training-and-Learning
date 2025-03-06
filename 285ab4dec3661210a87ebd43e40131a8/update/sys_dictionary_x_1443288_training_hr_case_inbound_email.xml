@@ -47,7 +47,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-04 12:09:20</sys_created_on>
-        <sys_id>5a269e4bc3b21210a87ebd43e40131bc</sys_id>
         <sys_name>Inbound email</sys_name>
         <sys_package display_value="Training and Learning" source="x_1443288_training">285ab4dec3661210a87ebd43e40131a8</sys_package>
         <sys_policy/>

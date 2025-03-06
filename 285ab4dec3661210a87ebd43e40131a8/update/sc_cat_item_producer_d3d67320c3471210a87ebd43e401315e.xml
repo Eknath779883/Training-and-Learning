@@ -6,11 +6,11 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category display_value="Services">109f0438c6112276003ae8ac13e7009d</category>
+        <category display_value="Training and Learning">4cc8bc9b836312100005c430ceaad3d5</category>
         <checked_out/>
         <cost>0</cost>
         <custom_cart/>
-        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description><![CDATA[<p><span style="background-color: rgb(var(--sn-tinymce_content-background,var(--now-form-field--background-color,var(--now-color_background--primary,var(--now-color--neutral-0,255,255,255))))); color: rgb(var(--sn-tinymce_content-text,var(--now-form-field--color,var(--now-color_text--primary,var(--now-color--neutral-18,22,27,28)))));">Request for support from GxP Training &amp; Learning team on Training Quality System (TQS) related topics before, during and after the audit/inspection</span></p>]]></description>
@@ -24,6 +24,7 @@
         <ignore_price>true</ignore_price>
         <image/>
         <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
         <mandatory_attachment>false</mandatory_attachment>
         <meta>Training, Train, train</meta>
         <mobile_hide_price>false</mobile_hide_price>
@@ -90,14 +91,14 @@ current.catalog_item = 'audit_and_inspection_support';]]></script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-09 11:04:59</sys_created_on>
         <sys_id>d3d67320c3471210a87ebd43e401315e</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>45</sys_mod_count>
         <sys_name>Request GxP training &amp; learning related audit and inspection support</sys_name>
         <sys_package display_value="Training and Learning" source="x_1443288_training">285ab4dec3661210a87ebd43e40131a8</sys_package>
         <sys_policy/>
         <sys_scope display_value="Training and Learning">285ab4dec3661210a87ebd43e40131a8</sys_scope>
         <sys_update_name>sc_cat_item_producer_d3d67320c3471210a87ebd43e401315e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-06 11:54:49</sys_updated_on>
+        <sys_updated_on>2025-02-11 06:48:19</sys_updated_on>
         <table_name>x_1443288_training_training_and_learning</table_name>
         <taxonomy_topic/>
         <template/>
@@ -105,7 +106,7 @@ current.catalog_item = 'audit_and_inspection_support';]]></script>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>44</version>
+        <version>45</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
@@ -131,4 +132,15 @@ current.catalog_item = 'audit_and_inspection_support';]]></script>
         <table>sc_cat_item_producer</table>
         <type>calculated</type>
     </fx_price>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>d3d67320c3471210a87ebd43e401315e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 06:48:18</sys_created_on>
+        <sys_id>de1974db836312100005c430ceaad38e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 06:48:18</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>

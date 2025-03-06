@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
     <io_set_item action="INSERT_OR_UPDATE">
         <order>1300</order>
-        <sc_cat_item display_value="Request GxP Training Report &amp; learning related Audit and Inspection support">d3d67320c3471210a87ebd43e401315e</sc_cat_item>
+        <sc_cat_item display_value="Request GxP training &amp; learning related audit and inspection support">d3d67320c3471210a87ebd43e401315e</sc_cat_item>
         <sys_class_name>io_set_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-09 11:56:41</sys_created_on>

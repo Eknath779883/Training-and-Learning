@@ -2,11 +2,12 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Request GxP maintenance on Learning Management System">dc2dc8f8c3871210a87ebd43e401316a</cat_item>
+        <cat_item display_value="Request GxP training maintenance on Learning Management System">dc2dc8f8c3871210a87ebd43e401316a</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
         <choice_table/>
+        <conversational_label/>
         <create_roles/>
         <default_html_value/>
         <default_value/>
@@ -42,6 +43,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>description</name>
+        <not_available_conversation>false</not_available_conversation>
         <order>1000</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
@@ -87,6 +89,7 @@
         <sys_updated_on>2025-01-09 12:58:16</sys_updated_on>
         <table/>
         <tooltip>Request Description</tooltip>
+        <topic_block/>
         <type>2</type>
         <ui_page/>
         <unique>false</unique>

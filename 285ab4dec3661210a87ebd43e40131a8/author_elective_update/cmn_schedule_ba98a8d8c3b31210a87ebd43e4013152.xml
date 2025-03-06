@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <cmn_schedule action="DELETE">
+<calendar_name>24 x 5</calendar_name>
+<description/>
+<document/>
+<document_key/>
+<is_legacy_schedule>true</is_legacy_schedule>
+<label>24 x 5</label>
+<name>24 x 5</name>
+<parent display_value=""/>
+<plural_label/>
+<read_only>false</read_only>
+<sys_class_name>cmn_schedule</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-02-14 08:10:29</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>ba98a8d8c3b31210a87ebd43e4013152</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_name>24 x 5</sys_name>
+<sys_package display_value="Training and Learning" source="x_1443288_training">285ab4dec3661210a87ebd43e40131a8</sys_package>
+<sys_policy/>
+<sys_scope display_value="Training and Learning">285ab4dec3661210a87ebd43e40131a8</sys_scope>
+<sys_update_name>cmn_schedule_ba98a8d8c3b31210a87ebd43e4013152</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-02-14 10:49:32</sys_updated_on>
+<time_zone/>
+<type/>
+</cmn_schedule>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training and Learning">285ab4dec3661210a87ebd43e40131a8</application>
+        <file_path/>
+        <instance_id>d02a0dd91b89ca5032182f8dee4bcbc0</instance_id>
+        <instance_name>dev244261</instance_name>
+        <name>cmn_schedule_ba98a8d8c3b31210a87ebd43e4013152</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><cmn_schedule action="INSERT_OR_UPDATE">
+<calendar_name>24 x 5</calendar_name>
+<description/>
+<document/>
+<document_key/>
+<is_legacy_schedule>true</is_legacy_schedule>
+<label>24 x 5</label>
+<name>24 x 5</name>
+<parent display_value=""/>
+<plural_label/>
+<read_only>false</read_only>
+<sys_class_name>cmn_schedule</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-02-14 08:10:29</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>ba98a8d8c3b31210a87ebd43e4013152</sys_id>
+<sys_mod_count>2</sys_mod_count>
+<sys_name>24 x 5</sys_name>
+<sys_package display_value="Training and Learning" source="x_1443288_training">285ab4dec3661210a87ebd43e40131a8</sys_package>
+<sys_policy/>
+<sys_scope display_value="Training and Learning">285ab4dec3661210a87ebd43e40131a8</sys_scope>
+<sys_update_name>cmn_schedule_ba98a8d8c3b31210a87ebd43e4013152</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-02-14 10:49:32</sys_updated_on>
+<time_zone/>
+<type/>
+</cmn_schedule></record_update>]]></payload>
+        <payload_hash>1847447528</payload_hash>
+        <record_name>24 x 5</record_name>
+        <reverted_from/>
+        <source>813e2f3a83a312100005c430ceaad370</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-14 10:58:08</sys_created_on>
+        <sys_id>f60f0950837712100005c430ceaad394</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195041bd5fd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-14 10:58:08</sys_updated_on>
+        <type>Schedule</type>
+        <update_guid>7a0fc15c0237121083eeb84c400c937d</update_guid>
+        <update_guid_history>7a0fc15c0237121083eeb84c400c937d:1847447528</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="24 x 5">36aed11483b712100005c430ceaad395</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-14 12:06:23</sys_created_on>
+        <sys_db_object display_value="" name="cmn_schedule">cmn_schedule</sys_db_object>
+        <sys_id>311f9c8ee2ff43a0aeab929c0ce62984</sys_id>
+        <sys_metadata>ba98a8d8c3b31210a87ebd43e4013152</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>24 x 5</sys_name>
+        <sys_package display_value="Training and Learning" source="x_1443288_training">285ab4dec3661210a87ebd43e40131a8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Training and Learning">285ab4dec3661210a87ebd43e40131a8</sys_scope>
+        <sys_scope_delete display_value="">321e62cae0b748838f7486b5ecc1e6e1</sys_scope_delete>
+        <sys_update_name>cmn_schedule_ba98a8d8c3b31210a87ebd43e4013152</sys_update_name>
+        <sys_update_version display_value="cmn_schedule_ba98a8d8c3b31210a87ebd43e4013152">f60f0950837712100005c430ceaad394</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-14 12:06:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
